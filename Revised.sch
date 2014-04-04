@@ -11987,6 +11987,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </class>
 <class number="1" name="power" width="0.8128" drill="0">
 </class>
+<class number="2" name="gnd" width="0.4064" drill="0">
+</class>
 </classes>
 <parts>
 <part name="PWR" library="con-lsta" deviceset="FE06-2" device=""/>
@@ -12057,7 +12059,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <busses>
 </busses>
 <nets>
-<net name="GND" class="1">
+<net name="GND" class="2">
 <segment>
 <pinref part="PWR" gate="G$1" pin="2"/>
 <wire x1="119.38" y1="144.78" x2="119.38" y2="147.32" width="0.1524" layer="91"/>
@@ -12093,8 +12095,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="GND@1"/>
-<wire x1="86.36" y1="40.64" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="40.64" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="40.64" x2="71.12" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="RESONATOR" gate="G$1" pin="2"/>
@@ -12102,9 +12104,9 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="68.58" y1="40.64" x2="71.12" y2="40.64" width="0.1524" layer="91"/>
 <junction x="71.12" y="40.64"/>
 <pinref part="IC1" gate="G$1" pin="GND@2"/>
-<wire x1="86.36" y1="38.1" x2="83.82" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="38.1" x2="83.82" y2="40.64" width="0.1524" layer="91"/>
-<junction x="83.82" y="40.64"/>
+<wire x1="86.36" y1="38.1" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="38.1" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
+<junction x="81.28" y="40.64"/>
 </segment>
 <segment>
 <wire x1="17.78" y1="93.98" x2="17.78" y2="99.06" width="0.1524" layer="91"/>
